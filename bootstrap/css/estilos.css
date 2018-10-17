@@ -15,6 +15,18 @@ div{
 	text-align: center;
 }
 
+.barra-nav{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li>a{
+	color: white;
+}
+
+.nav{
+	background-color: #1A5276;
+}
 
 @media (min-width: 770px){
 	.barra{
@@ -22,9 +34,7 @@ div{
 	}
 }
 
-.navbar{
-	
-}
+
 
 
 
