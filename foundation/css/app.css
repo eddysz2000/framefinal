@@ -1,0 +1,18 @@
+body{
+	background-image: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+div{
+	border: 1px solid red;
+}
+
+.contenido{
+	background-color: #239b56;
+	opacity: 0.5;
+}
+
+.notrans{
+	opacity: 1;
+}
