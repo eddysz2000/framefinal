@@ -1,18 +1,70 @@
 body{
 	background-image: url("../img/fondo.jpg");
 	background-repeat: no-repeat;
-    background-color: #cccccc;
+    background-color: rgb(20,90,50);
+    background-attachment: fixed;
+    background-position: center;
 }
 
+/*
 div{
-	border: 1px solid red;
+	border: 1px solid black;
+}
+
+*/
+
+
+
+header h2,
+header p{
+	color: white;
+}
+
+header p{
+	text-align: right;
+}
+
+.input-group i{
+	font-size: 1.25em;
+	margin: 5px;
+	color: white;
+}
+
+.fondo-claro{
+	background-color: rgb(151,251,152,0.9);
+	color: #2E8B57;
+
 }
 
 .contenido{
-	background-color: #239b56;
-	opacity: 0.5;
+	background: rgb(20,90,50,0.5);
+
 }
 
-.notrans{
-	opacity: 1;
+.lista{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+.lista li{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(20,90,50);
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
