@@ -6,6 +6,22 @@ body{
     background-position: center;
 }
 
+.transparente{
+	background-color: rgb(20,90,50,0);
+}
+
+.semitransparente{
+	background-color: rgb(151,251,152,0.8);
+}
+
+.opaco{
+	background-color: rgb(151,251,152);
+}
+
+.fondo{
+	background-color: rgb(20,90,50,0.5);
+}
+
 /*
 div{
 	border: 1px solid black;
@@ -20,6 +36,10 @@ header p{
 	color: white;
 }
 
+h4{
+	color: rgb(20,90,50);
+}
+
 header p{
 	text-align: right;
 }
@@ -28,17 +48,6 @@ header p{
 	font-size: 1.25em;
 	margin: 5px;
 	color: white;
-}
-
-.fondo-claro{
-	background-color: rgb(151,251,152,0.9);
-	color: #2E8B57;
-
-}
-
-.contenido{
-	background: rgb(20,90,50,0.5);
-
 }
 
 .lista{
