@@ -77,3 +77,21 @@ a:active {
     color: blue;
 }
 
+.pegado{
+	margin-bottom: 0px;
+}
+
+.comentarios{
+	border:1px solid rgb(20,90,50);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.img-comentarios{
+	width: 100px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
