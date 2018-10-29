@@ -1,0 +1,36 @@
+body{
+	background-image: url("../img/fondoB.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*
+div{
+	border: 1px solid black;
+}
+*/
+
+.logo{
+	border-radius: 20px;
+	width: 120px;
+	margin: 0;
+	padding: 0;
+}
+
+.transparente{
+	background-color: rgb(36, 113, 163,0);
+}
+
+header .transparente{
+	border-radius: 20px;
+}
+
+.espaciado{
+
+  padding: 0.5rem;
+}
+
+.justificar{
+	text-align: justify;
+}
